@@ -1,0 +1,4 @@
+docker --version
+docker build -t lydie-flask-app .
+docker run -d -p 5000:5000 lydie-flask-app
+docker ps
